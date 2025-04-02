@@ -134,40 +134,39 @@ p {
 
 #estudios {
   display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
   padding: 20px;
   background: #e6e6e6;
   border-radius: 20px;
   margin-top: 20px;
   color: #001d3d;
+  box-sizing: border-box;
+  width: 100%;
 }
 
-#estudios #primero {
-  flex: 1;
-  min-width: 200px;
-}
-
-#estudios #segundo {
-  flex: 1;
-  min-width: 200px;
+#estudios > div {
+  flex: 1 1 300px;
+  min-width: 250px;
 }
 
 #estudios h2 {
   margin: 0;
 }
+
 #estudios h3 {
-  margin: 0;
-  color:#006297;
+  margin: 0 0 10px 0;
+  color: #006297;
 }
 
 #estudios ul {
   list-style: square;
-  padding: 10px;
-  line-height: 1em;
-  list-style-position: inside;
+  padding-left: 20px;
+  line-height: 1.5em;
 }
 
 #estudios li {
-  line-height: 1em;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 768px) {
