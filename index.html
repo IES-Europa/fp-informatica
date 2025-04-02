@@ -25,11 +25,11 @@
       <div class="offer">
         <h2>¿Qué puedes estudiar?</h2>
         <ul>
-          <li><strong>Grado Básico</strong><br>Informática de Oficina</li>
-          <li><strong>Grado Medio</strong><br>Sistemas Microinformáticos y Redes</li>
-          <li><strong>Grado Superior</strong><br>Administradoción de Sistemas Informáticos en Red</li>
-          <li><strong>Grado Superior</strong><br>Desarrollo de Aplicaciones Web</li>
-          <li><strong>Grado Superior</strong><br>Desarrollo de Aplicaciones Multiplataforma</li>
+          <li><strong>Grado Básico</strong><br><a href="#" onclick="mostrarInfo('basico')">Informática de Oficina</a></li>
+          <li><strong>Grado Medio</strong><br><a href="#" onclick="mostrarInfo('medio')">Sistemas Microinformáticos y Redes</a></li>
+          <li><strong>Grado Superior</strong><br><a href="#" onclick="mostrarInfo('asir')">Administración de Sistemas Informáticos en Red</a></li>
+          <li><strong>Grado Superior</strong><br><a href="#" onclick="mostrarInfo('daw')">Desarrollo de Aplicaciones Web</a></li>
+          <li><strong>Grado Superior</strong><br><a href="#" onclick="mostrarInfo('dam')">Desarrollo de Aplicaciones Multiplataforma</a></li>
         </ul>
       </div>
 
@@ -39,7 +39,7 @@
         <p>Tel: 916 70 27 56</p>
       </div>
     </div>
-    <div class="right" id="info">
+    <div class="right" id="info-ciclo">
       <h2>¿Por qué FP de Informática y Comunicaciones?</h2>
       <ul>
         <li><strong>Inserción laboral</strong> Tras la obtención del título existen posibilidades reales de contratación.</li>
@@ -51,7 +51,7 @@
       </ul>
 
       <h2>¿Por qué IES Europa?</h2>
-      <p>Es un referente en la zona Este donde se imparten estos ciclos formativos de Informática.</p>
+      <p>Es un referente en la zona este de Madrid donde se imparten estos ciclos formativos de Informática.</p>
       <p>Porque en Rivas existe una elevada actividad empresarial.</p>
       <p>Porque Rivas cuenta con una amplia gama de empresas relacionada con el sector informático.</p>
       <p>Porque cada curso se generan nuevos convenios con empresas de Rivas y alrededores.</p>
@@ -60,6 +60,198 @@
       <p>Calidad de enseñanza e instalaciones modernas.</p>
     </div>
   </div>
+
+
+  <script>
+    function mostrarInfo(ciclo) {
+      const info = {
+        basico: `
+          <h3>Grado Básico<h3><h2>Informática de Oficina</h2>
+          <p>Se accede sin necesidad del título de la ESO. Debes tener cumplidos quince años, o cumplirlos durante el año natural en curso, y no superar los diecisiete años de edad en el momento del acceso o durante el año natural en curso.</p>
+          <div id="estudios">
+            <div id="primero">
+              <h3>Primer curso</h3>
+              <ul>
+                <li>Matemáticas y Ciencias Aplicadas I</li>
+                <li>Ciencias de la Actividad Física I</li>
+                <li>Comunicación en Lengua Castellana y Sociedad I</li>
+                <li>Comunicación en Lengua Inglesa I</li>
+                <li>Itinerario personal para la empleabilidad</li>
+                <li>Montaje y mantenimiento de sistemas y componentes informáticos</li>
+                <li>Operaciones auxiliares para la configuración y la explotación</li>
+                <li>Fase de Formación en Empresa</li>
+              </ul>
+            </div>
+            <div id="segundo">
+              <h3>Segundo curso</h3>
+              <ul>
+                <li>Matemáticas y Ciencias Aplicadas II</li>
+                <li>Ciencias de la Actividad Física II </li>
+                <li>Comunicación en Lengua Castellana y Sociedad II</li>
+                <li>Comunicación en Lengua Inglesa II</li>
+                <li>Ofimática y archivo de documentos</li>
+                <li>Instalación y mantenimiento de redes para transmisión de datos</li>
+                <li>Proyecto intermodular de aprendizaje colaborativo (GB) </li>
+                <li>Fase de Formación en Empresa</li>
+              </ul>
+            </div>
+          </div>
+          <p>Cuando termines, podrás trabajar en tareas de comercialización, montaje, mantenimiento y reparación de sistemas microinformáticos, equipos eléctricos o electrónicos.</p>
+        `,
+        medio: `
+          <h3>Grado Medio<h3><h2>Sistemas Microinformáticos y Redes</h2>
+            <p>Se accede con la titulación de ESO o de Formación Profesional Básica. También se puede acceder desde una prueba de acceso.</p>
+            <div id="estudios">
+              <div id="primero">
+                <h3>Primer curso</h3>
+                <ul>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li>Fase de Formación en Empresa</li>
+                </ul>
+              </div>
+              <div id="segundo">
+                <h3>Segundo curso</h3>
+                <ul>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li>Fase de Formación en Empresa</li>
+                </ul>
+              </div>
+            </div>
+            <p>Cuando termines, podrás realizar tareas de comercialización, montaje y reparación de equipos, redes y servicios microinformáticos en general, como parte del soporte informático de la organización o en entidades de cualquier tamaño y sector productivo que utilizan sistemas microinformáticos y redes de datos para su gestión.</p>      
+        `,
+        asir: `
+            <h3>Grado Superior<h3><h2>Administración de Sistemas Informáticos en Red</h2>
+            <p></p>
+            <div id="estudios">
+              <div id="primero">
+                <h3>Primer curso</h3>
+                <ul>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li>Fase de Formación en Empresa</li>
+                </ul>
+              </div>
+              <div id="segundo">
+                <h3>Segundo curso</h3>
+                <ul>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li>Fase de Formación en Empresa</li>
+                </ul>
+              </div>
+            </div>
+            <p></p>      
+        `,
+        daw: `
+            <h3>Grado Superior<h3><h2>Desarrollo de Aplicaciones Web</h2>
+            <p></p>
+            <div id="estudios">
+              <div id="primero">
+                <h3>Primer curso</h3>
+                <ul>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li>Fase de Formación en Empresa</li>
+                </ul>
+              </div>
+              <div id="segundo">
+                <h3>Segundo curso</h3>
+                <ul>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li>Fase de Formación en Empresa</li>
+                </ul>
+              </div>
+            </div>
+            <p></p>`,
+        dam: `
+            <h3>Grado Superior<h3><h2>Desarrollo de Aplicaciones Multiplataforma</h2>
+            <p></p>
+            <div id="estudios">
+              <div id="primero">
+                <h3>Primer curso</h3>
+                <ul>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li>Fase de Formación en Empresa</li>
+                </ul>
+              </div>
+              <div id="segundo">
+                <h3>Segundo curso</h3>
+                <ul>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li>Fase de Formación en Empresa</li>
+                </ul>
+              </div>
+            </div>
+            <p></p>`
+      };
+  
+      const contenedor = document.getElementById("info-ciclo");
+      contenedor.innerHTML = info[ciclo];
+      contenedor.scrollIntoView({ behavior: "smooth" });
+    }
+  </script>
+  
 </body>
 
 </html>
