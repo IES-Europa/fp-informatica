@@ -60,6 +60,7 @@ a:hover {
   position: relative;
   background-image: url("images/network.png");
   background-size: cover;
+  box-sizing: border-box;
 }
 
 .right h2 {
@@ -141,7 +142,6 @@ p {
   border-radius: 20px;
   margin-top: 20px;
   color: #001d3d;
-  box-sizing: border-box;
   width: 100%;
 }
 
@@ -163,6 +163,7 @@ p {
   list-style: square;
   padding-left: 20px;
   line-height: 1.5em;
+  list-style-position: inside;
 }
 
 #estudios li {
