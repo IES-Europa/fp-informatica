@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .left {
+    background-color: #2f94c9;
+    color: white;
+    flex: 1;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .offer h2 {
+    margin-bottom: 20px;
+  }
+  
+  .offer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .offer li {
+    margin-bottom: 15px;
+    line-height: 1.4;
+  }
+  
+  .info {
+    margin-top: 40px;
+  }
+  
+  .qr {
+    width: 80px;
+    margin-top: 10px;
+  }
+  
+  .logo {
+    width: 100px;
+    margin-top: 20px;
+  }
+  
+  .right {
+    background: radial-gradient(circle at center, #001d3d, #000814);
+    color: white;
+    flex: 1;
+    padding: 40px 30px;
+    position: relative;
+  }
+  
+  .header h3 {
+    font-size: 20px;
+    margin: 0 0 20px;
+  }
+  
+  .main-title h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .main-title h1 {
+    font-size: 32px;
+    margin: 10px 0;
+  }
+  
+  .logo-bottom {
+    position: absolute;
+    bottom: 20px;
+    left: 30px;
+    width: 100px;
+  }
+  
+  .network-bg {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    background-image: url("network.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 90%;
+    height: 50%;
+    opacity: 0.5;
+  }
+  
