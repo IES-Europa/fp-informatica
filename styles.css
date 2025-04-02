@@ -185,7 +185,6 @@ p {
   }
 
   #estudios ul {
-    list-style: none;
     padding: 5px;
     line-height: 0.8em;
   }
@@ -193,4 +192,43 @@ p {
   #estudios li {
     line-height: 0.8em;
   }
+
+  .container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .left, .right {
+    width: 100%;
+    flex: none;
+    padding: 20px;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .right {
+    background-size: contain;
+  }
+
+  .offer ul li {
+    font-size: 16px;
+  }
+
+  #info-ciclo h2 {
+    font-size: 20px;
+  }
+
+  .cta {
+    display: inline-block;
+    margin-top: 20px;
+  }
+
+  
 }
