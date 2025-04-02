@@ -62,6 +62,27 @@ a:hover {
   background-size: cover;
 }
 
+.right h2 {
+  font-size: 30px;
+  color: #5bb8eb;
+  margin: 0;
+}
+
+.right h3 {
+  font-size: 24px;
+  color: #e6e6e6;
+  margin: 0;
+}
+
+.right a {
+  color: #6cbeeb;
+  margin-top: 50px;
+}
+
+.right a:hover {
+  color: #e6e6e6;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -100,13 +121,6 @@ a:hover {
   width: 100px;
 }
 
-.right h2 {
-  font-size: 30px;
-  color: #45b0e9;
-  margin: 0;
-  margin-top: 40px;
-}
-
 ul {
   list-style: none;
   padding: 0;
@@ -138,16 +152,18 @@ p {
 }
 
 #estudios h2 {
-  margin-top: 0;
+  margin: 0;
 }
 #estudios h3 {
   margin: 0;
+  color:#006297;
 }
 
 #estudios ul {
   list-style: square;
   padding: 10px;
   line-height: 1em;
+  list-style-position: inside;
 }
 
 #estudios li {
