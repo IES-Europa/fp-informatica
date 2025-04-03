@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   font-size: 1.2em;
-  height: 100vh;
+  box-sizing: border-box;
 }
 
 a {
@@ -16,7 +16,6 @@ a:hover {
 
 .container {
   display: flex;
-  height: 100vh;
 }
 
 .left {
@@ -234,6 +233,5 @@ p {
     display: inline-block;
     margin-top: 20px;
   }
-
   
 }
