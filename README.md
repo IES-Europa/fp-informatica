@@ -1,3 +1,9 @@
-# FP Informática
+# Formación Profesional Informática
 
-Página estática para información de la Formación Profesional del IES Europa (Rivas, Madrid)
+Página para información sobre la oferta de Formación Profesional Informática y Comunicaciones en el IES Europa (Rivas-Vaciamadrid)
+
+## Web
+
+Se sube automáticamente a github pages.
+
+Se muestra en [https://ies-europa.github.io/fp-informatica/](https://ies-europa.github.io/fp-informatica/)
